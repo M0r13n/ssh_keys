@@ -1,11 +1,10 @@
 # Who are you?
 
 This is a basic SSH Server implementation based on Twisted and Python. 
-It's only purpose is to demonstrate, that by default a ssh client sends all public keys.
-This is not a security concern, because the keys are public anyway, 
-but you can do interesting things with them.
+It's only purpose is to demonstrate that by default a ssh client sends all public keys to the remote server.
+This is not a security concern (because the keys are public anyway) but you can do interesting things with them.
 
-For example FiloSottile [compares](https://github.com/FiloSottile/whosthere) your public key with Github public keys and is able to retrieve your Github Nickname.
+For example FiloSottile [compares](https://github.com/FiloSottile/whosthere) your public key with Github's database and is able to retrieve your Github nickname.
 
 # How to run this demo?
 1. Install twisted and the required crypto modules: `pip install -r requirements.txt
