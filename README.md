@@ -7,8 +7,8 @@ This is not a security concern (because the keys are public anyway) but you can 
 For example FiloSottile [compares](https://github.com/FiloSottile/whosthere) your public key with Github's database and is able to retrieve your Github nickname.
 
 # How to run this demo?
-1. Install twisted and the required crypto modules: `pip install -r requirements.txt
-2. Created Keys for the server in the same directory: `ckeygen -t rsa -f ssh_host_rsa_key`
+1. Install twisted and the required crypto modules: `pip install -r requirements.txt'
+2. Create a key pair for the server in the same directory: `ckeygen -t rsa -f ssh_host_rsa_key`
 3. Run:`python3 ssh.py`
 
 You can now ssh onto your machine (default port is 5022) and will get a output similar to this:
