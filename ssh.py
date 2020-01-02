@@ -35,7 +35,7 @@ MSG = msg = """
     |                                                                     |
     |                                                                     |
     |  P.S. This version is written in 100% pure Python                   |
-    |  https://github.com/M0r13n/some_repo                                |
+    |  https://github.com/M0r13n/ssh_keys                                 |
     |                                                                     |
     |  -- C u                                                             |
     |                                                                     |
